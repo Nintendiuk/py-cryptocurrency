@@ -2,6 +2,7 @@ import pytest
 from unittest.mock import patch
 from app import main
 
+
 @pytest.mark.parametrize(
     "prediction,current,expected",
     [
